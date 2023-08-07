@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/ClassmateLogin"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="root"
+	password=""
+	maxIdle="30" 
+    maxWait="10000" 
+    maxActive="100"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://127.0.0.1:3306/duser?serverTimezone=UTC"
+    logAbandoned="true" />
+    <dependency>
+ <groupId>com.google.code.gson</groupId>
+ <artifactId>gson</artifactId>
+ <version>2.3.1</version>
+</dependency>
+</Context>
